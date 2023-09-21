@@ -1,150 +1,193 @@
 {
-    "petProfiles": [
-        {
-            "id": 1,
-            "name": "Tator",
-            "petOwnerId": 5,
-            "petType": "Cat",
-            "description": "Nashville"
-        }, {
-            "id": 2,
-            "name": "Shrimp",
-            "petOwnerId": 5,
-            "petType": "Cat",
-            "description": "Nashville"
-        },
-        {
-            "id": 3,
-            "name": "Ganache",
-            "petOwnerId": 5,
-            "petType": "Cat",
-            "description": "Nashville"
-        },{
-            "id": 4,
-            "name": "Grits",
-            "petOwnerId": 5,
-            "petType": "Cat",
-            "description": "Nashville"
-        },{
-            "id": 5,
-            "name": "Graham",
-            "petOwnerId": 5,
-            "petType": "Dog",
-            "description": "Nashville"
-        }, {
-            "id": 6,
-            "name": "Cooper",
-            "petOwnerId": 5,
-            "petType": "Dog",
-            "description": "Nashville"
-        }, {
-            "id": 7,
-            "name": "Theo",
-            "petOwnerId": 1,
-            "petType": "Dog",
-            "description": "Nashville"
-        }, {
-            "id": 8,
-            "name": "Marshal",
-            "petOwnerId": 6,
-            "petType": "Dog",
-            "description": "Nashville"
-        }, {
-            "id": 9,
-            "name": "Karma",
-            "petOwnerId": 2,
-            "petType": "Dog",
-            "description": "Nashville"
-        }, {
-            "id": 10,
-            "name": "Marsha Mellow",
-            "petOwnerId": 3,
-            "petType": "Dog",
-            "description": "Nashville"
-        }, {
-            "id": 11,
-            "name": "Daisy",
-            "petOwnerId": 3,
-            "petType": "Dog",
-            "description": "Nashville"
-        }, {
-            "id": 12,
-            "name": "Chewy",
-            "petOwnerId": 3,
-            "petType": "Dog",
-            "description": "Nashville"
-        },  
-        {
-            "id": 13,
-            "name": "Timber",
-            "petOwnerId": 7,
-            "petType": "Dog",
-            "description": "Nashville"
-        }, 
-        {
-            "id": 14,
-            "name": "Luna",
-            "petOwnerId": 7,
-            "petType": "Dog",
-            "description": "Nashville"
-        }
-    ],
-    "petOwners":[
-        {
-            "id": 1,
-            "name": "Tonda M.",
-            "city": "Nashville",
-            "email": ""
-        },
-        {
-            "id": 2,
-            "name": "Trina T.",
-            "city": "Mt Juliet",
-            "email": ""
-        },
-        {
-            "id": 3,
-            "name": "Cat L.",
-            "city": "Nashville",
-            "email": ""
-        }, 
-        {
-            "id": 4,
-            "name": "Diane",
-            "city": "Murfreesboro",
-            "email": ""
-        }, 
-        {
-            "id": 5,
-            "name": "Andrea C.",
-            "city": "Nashville",
-            "email": ""
-        }, 
-        {
-            "id": 6,
-            "name": "Missy L.",
-            "city": "Manchester",
-            "email": ""
-        }, 
-        {
-            "id": 7,
-            "name": "Ashley S.",
-            "city": "Nashville",
-            "email": ""
-        }
-    ], 
-    "petTypes": [
-        {
-            "id": 1,
-            "type": "Cat"
-        }, 
-        {
-            "id": 2,
-            "type": "Dog"
-        },
-        {
-            "id": 3, 
-            "type": "Hamster"
-        }
-]
+  "pets": [
+    {
+      "id": 1,
+      "name": "Tator",
+      "petOwnerId": 5,
+      "petTypeId": 1,
+      "description": "Forget everything, lets play."
+    },
+    {
+      "id": 2,
+      "name": "Shrimp",
+      "petOwnerId": 5,
+      "petTypeId": 1,
+      "description": "I hide"
+    },
+    {
+      "id": 3,
+      "name": "Ganache",
+      "petOwnerId": 5,
+      "petTypeId": 1,
+      "description": "A princess"
+    },
+    {
+      "id": 4,
+      "name": "Grits",
+      "petOwnerId": 5,
+      "petTypeId": 1,
+      "description": "Free spirit of Madison"
+    },
+    {
+      "id": 5,
+      "name": "Graham",
+      "petOwnerId": 5,
+      "petTypeId": 2,
+      "description": "Solid and calm"
+    },
+    {
+      "id": 6,
+      "name": "Cooper",
+      "petOwnerId": 5,
+      "petTypeId": 2,
+      "description": "Young and lanky"
+    },
+    {
+      "id": 7,
+      "name": "Theo",
+      "petOwnerId": 1,
+      "petTypeId": 2,
+      "description": "Its all about Theo"
+    },
+    {
+      "id": 8,
+      "name": "Marshal",
+      "petOwnerId": 6,
+      "petTypeId": 2,
+      "description": "Watch those toes"
+    },
+    {
+      "id": 9,
+      "name": "Karma",
+      "petOwnerId": 2,
+      "petTypeId": 2,
+      "description": "All goodness"
+    },
+    {
+      "id": 10,
+      "name": "Marsha Mellow",
+      "petOwnerId": 3,
+      "petTypeId": 2,
+      "description": "Soft and sweet"
+    },
+    {
+      "id": 11,
+      "name": "Daisy",
+      "petOwnerId": 3,
+      "petTypeId": 2,
+      "description": "Sweet as a flower"
+    },
+    {
+      "id": 12,
+      "name": "Chewy",
+      "petOwnerId": 3,
+      "petTypeId": 2,
+      "description": "A fluff with teeth"
+    },
+    {
+      "id": 13,
+      "name": "Timber",
+      "petOwnerId": 7,
+      "petTypeId": 2,
+      "description": "He falls...alot."
+    },
+    {
+      "id": 14,
+      "name": "Luna",
+      "petOwnerId": 7,
+      "petTypeId": 2,
+      "description": "Tall, and always ready to run!"
+    },
+    {
+      "name": "Sandy",
+      "petOwnerId": 0,
+      "description": "A walking hairball of fun.",
+      "petTypeId": 1,
+      "id": 15
+    }
+  ],
+  "petOwners": [
+    {
+      "id": 1,
+      "fullName": "Tonda Totherow.",
+      "isPetOwner": true,
+      "city": "Nashville",
+      "email": "cat@gmail.com"
+    },
+    {
+      "id": 2,
+      "fullName": "Trina Totherow.",
+      "isPetOwner": true,
+      "city": "Mt Juliet",
+      "email": "dog@gmail.com"
+    },
+    {
+      "id": 3,
+      "fullName": "Cat Totherow.",
+      "isPetOwner": true,
+      "city": "Nashville",
+      "email": "cat1@gmail.com"
+    },
+    {
+      "id": 4,
+      "fullName": "Diane Totherow",
+      "isPetOwner": true,
+      "city": "Murfreesboro",
+      "email": "dog2@gmail.com"
+    },
+    {
+      "id": 5,
+      "fullName": "Andrea Totherow",
+      "isPetOwner": true,
+      "city": "Nashville",
+      "email": "cat3@gmail.com"
+    },
+    {
+      "id": 6,
+      "fullName": "Missy Totherow",
+      "isPetOwner": true,
+      "city": "Manchester",
+      "email": "dog3@gmail.com"
+    },
+    {
+      "id": 7,
+      "fullName": "Ashley Totherow",
+      "isPetOwner": true,
+      "city": "Nashville",
+      "email": "cat4@gmail.com"
+    },
+    {
+      "email": "tym4me13@gmail.com",
+      "fullName": "Michelle Totherow",
+      "isPetOwner": true,
+      "city": "Madison",
+      "id": 8
+    }
+  ],
+  "petTypes": [
+    {
+      "id": 1,
+      "type": "Cat"
+    },
+    {
+      "id": 2,
+      "type": "Dog"
+    },
+    {
+      "id": 3,
+      "type": "Hamster"
+    },
+    {
+      "id": 4,
+      "type": "Bird"
+    },
+    {
+      "id": 5,
+      "type": "Horse"
+    },
+    {
+      "id": 6,
+      "type": "Goat"
+    }
+  ]
 }
